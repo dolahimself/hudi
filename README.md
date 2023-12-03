@@ -10,7 +10,7 @@ Hudi helps you build better spiritual habits as a Muslim by encouraging you to p
 
 2.  Scan the QR code above to open the hudi app on your device, or copy and paste url - [exp://exp.host/@dolahimself/hudi?release-channel=default](https://raw.githubusercontent.com/dolahimself/hudi/main/assets/images/hudi.png) in your Expo Go app's input field `Enter URL manually`
 
-3.  `NB: you might have to create an account expo on the Expo Go app`
+3.  `NB: you might have to create an expo account on the Expo Go app`
 
 
 ### **How to Install code file**

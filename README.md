@@ -17,7 +17,7 @@ Hudi helps you build better spiritual habits as a Muslim by encouraging you to p
 
 1.  Clone the repository using
 
-    git clone 
+    `git clone https://github.com/dolahimself/hudi.git`
 
 2. Change your directory by running `cd hudi`
 

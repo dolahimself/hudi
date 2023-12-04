@@ -28,7 +28,7 @@ const FirstStep = () => {
             style={{
               fontWeight: "700",
               fontFamily: "CircularStd-Medium",
-              paddingBottom: hp(40),
+              paddingBottom: hp(22.5),
             }}
             fontSize={fontSz(30)}
             text={`Take a step towards your dream life`}

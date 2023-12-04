@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, Image, View, StyleProp, ViewStyle } from "react-native";
+import { StyleSheet, View, StyleProp, ViewStyle } from "react-native";
 import { useNavigation } from "expo-router";
 import { ASPECT_RATIO, fontSz, hp } from "../utils";
 import { CustomPressable } from "./Button";
 import { nav } from "../app/_layout";
 import { CustomText } from "./Text";
+import LeftArrow from "../assets/images/svg/leftarrow.svg";
 
 const Header = ({
   withIcon,
@@ -28,10 +29,7 @@ const Header = ({
               goBack();
             }}
           >
-            <Image
-              source={require("../assets/images/leftarrow3x.png")}
-              style={styles.leftarrow}
-            />
+            <LeftArrow />
           </CustomPressable>
         </View>
       );
@@ -62,9 +60,5 @@ export default Header;
 const styles = StyleSheet.create({
   headerContainer: {
     paddingVertical: hp(50),
-  },
-  leftarrow: {
-    width: hp(15 * ASPECT_RATIO),
-    height: hp(15),
   },
 });

@@ -80,7 +80,7 @@ export const Button = memo(
     outlined,
     style,
     textStyle = {
-      fontSize: fontSz(17),
+      fontSize: fontSz(18),
       fontFamily: "Circular-Std-Book",
       fontWeight: "500",
       color: Colors.white,

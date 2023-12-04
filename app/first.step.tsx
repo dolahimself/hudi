@@ -44,11 +44,11 @@ const FirstStep = () => {
             style={{
               fontWeight: "400",
               fontFamily: "Circular-Std-Book",
-              paddingVertical: hp(25),
+              paddingVertical: Platform.OS === "ios" ? hp(25) : hp(30),
               textAlign: "left",
             }}
             fontSize={fontSz(22)}
-            text={`This journey begins with us helping you make small behavioral changes, one day at a time. \n\nWhat habit can you commit to for a start?`}
+            text={`This journey begins with us helping you make small behavioral changes, one day at a time.\n\nWhat habit can you commit to for a start?`}
           />
         </View>
         <View style={[styles.contentViewBottom]}>

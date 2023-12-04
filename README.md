@@ -23,7 +23,7 @@ Hudi helps you build better spiritual habits as a Muslim by encouraging you to p
 
 3. Run `yarn install` to install all the required packages.
 
-4. Run `yarn start` in your hudi home file path to getb started.
+4. Run `yarn start` in your hudi home file path to get started.
    
 5. Either scan the QR code available on your terminal with your iphone or android camera or open an android emulator or ios simulaor on your computer, then follow the instructions.
 
